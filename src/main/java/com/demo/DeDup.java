@@ -27,7 +27,7 @@ public class DeDup {
 
 			for (int i = 0; i < count; i++) {
 
-				// Loop for comparing value with next value and so on
+				// Loop for comparing value with next value and so on..
 				for (int j = i + 1; j < count; j++) {
 					if (inputArray[i] == inputArray[j]) {
 						int shiftLeft = j;
@@ -127,6 +127,7 @@ public class DeDup {
 			}
 		}
 
+        // return value
 		return resultArray;
 	}
 
